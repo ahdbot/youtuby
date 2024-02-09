@@ -1,0 +1,76 @@
+.history-right-column {
+    background-color: #fff;
+    height: 566px;
+}
+
+.list-group-item.active {
+ 
+    background-color: #bf40bf;
+    border-color: #bf40bf;
+}
+
+
+.card-body {
+    min-width: 0;
+}
+
+time {
+    bottom: 1px;
+    left: 1px;
+}
+
+.history-page .remove {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #2c3131c7;
+    cursor: pointer;
+}
+
+
+@media (min-width :289px) and (max-width :403px)
+{
+    .card .card-horizontal .card-body .channel-img>img {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .card .card-horizontal .card-body .channel-img {
+       margin-right: 0px !important;
+    }
+
+
+}
+
+
+@media (max-width :990px)
+{
+ .card{
+    margin-top: 30px;
+ }
+
+
+
+}
+
+
+
+
+.card .card-title {
+    height: auto;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .card .card-top-image {
+        width: 100%;
+    }
+    .card .card-horizontal time {
+        left: 10px;
+    }
+    .card .card-horizontal .fa-play {
+        right: 48%;
+    }
+}
+
+
